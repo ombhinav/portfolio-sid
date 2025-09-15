@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import Summary from "./components/Summary";
 import Experience from "./components/Experience";
 import ExperienceTimeline from "./components/ExperienceTimeline";
+import Projects from "./components/Projects";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Summary />
       <Experience />
       <ExperienceTimeline />
+      <Projects />
     </>
   );
 }
